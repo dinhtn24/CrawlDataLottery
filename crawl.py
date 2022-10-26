@@ -56,11 +56,10 @@ def getXSMB():
                 data_row.pop()
                 print()
 
-        # browser.close()  # close web
         putInFile('xsmb', data)
     except:
         print("ERROR!!!NOT exist data")
-        # browser.close()  # close web
+
 
 
 def getXSMT_XSMN(domain):
@@ -102,10 +101,8 @@ def getXSMT_XSMN(domain):
                 data_row.pop()
                 data_row.pop()
         putInFile(domain, data)
-        # browser.close()
     except:
         print("ERROR!!!NOT exist data")
-        # browser.close()  # close web
 
 
 #   Main

@@ -1,5 +1,5 @@
-#install lib
+#install lib:
 pip install selenium
 
-#run file .py
+#run file .py:
 python crawl.py
